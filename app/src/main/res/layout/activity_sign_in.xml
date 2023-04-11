@@ -6,29 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".SignIn">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="18dp"
-        android:background="@null"
-        android:backgroundTint="#00FFFFFF"
-        android:fontFamily="@font/jost_medium"
-        android:insetTop="0dp"
-        android:insetBottom="0dp"
-        android:text="Создать аккаунт"
-        android:textAllCaps="false"
-        android:textColor="#FFC100"
-        android:textSize="22dp"
-        app:cornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:strokeColor="#FFC100"
-        app:strokeWidth="3dp" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -141,7 +118,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginStart="18dp"
         android:layout_marginTop="54dp"
         android:layout_marginEnd="18dp"
@@ -157,4 +134,27 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="18dp"
+        android:background="@null"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/jost_medium"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Создать аккаунт"
+        android:textAllCaps="false"
+        android:textColor="#FFC100"
+        android:textSize="22dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:strokeColor="#FFC100"
+        app:strokeWidth="3dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
